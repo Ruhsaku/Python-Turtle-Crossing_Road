@@ -10,7 +10,5 @@ class CreateTurtle(Turtle):
         self.goto(0, -280)
         self.y_move = 25
 
-    def move(self):
-        # new_y = self.ycor() + self.y_move
-        # self.goto(self.xcor(), new_y)
+    def move_up(self):
         self.forward(10)
